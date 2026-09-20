@@ -41,7 +41,7 @@ jobs:
           RID: ${{ matrix.rid }}
         run: |
           Remove-Item -Recurse -Force dist -ErrorAction SilentlyContinue
-          dotnet publish SOTFEdit/SOTFEdit.csproj -c Release -r $env:RID --self-contained false -o dist/$env:RID/SOTFEdit
+          dotnet publish SOTFEdit/SOTFEdit.csproj -c Release -r $env:RID --self-contained true -o dist/$env:RID/SOTFEdit
 
       - name: Package (Windows)
         shell: pwsh
