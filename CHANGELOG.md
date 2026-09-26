@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Upgraded to .NET 10 (LTS)
+- Release builds are now self-contained, so the .NET Desktop Runtime no longer needs to be installed
+- Updated MessagePack to 3.1.9 to address security advisories
+
 ## v0.13.0
 
 Bump to .net 8.0, modernized code
