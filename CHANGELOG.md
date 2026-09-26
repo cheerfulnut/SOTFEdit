@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.13.1
 
 - Upgraded to .NET 10 (LTS)
 - Release builds are now self-contained, so the .NET Desktop Runtime no longer needs to be installed

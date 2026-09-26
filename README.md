@@ -2,9 +2,11 @@
 
 ![Screenshot](https://github.com/codengine/SOTFEdit/blob/master/SOTFEdit.jpg?raw=true)
 
-[![Build](https://github.com/codengine/SOTFEdit/actions/workflows/build.yaml/badge.svg)](https://github.com/codengine/SOTFEdit/actions/workflows/build.yaml)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/codengine/SOTFEdit)](https://github.com/codengine/SOTFEdit/releases)
-[![GitHub all releases](https://img.shields.io/github/downloads/codengine/SOTFEdit/total)](https://github.com/codengine/SOTFEdit/releases)
+> Fork of [codengine/SOTFEdit](https://github.com/codengine/SOTFEdit), updated to .NET 10.
+
+[![Build](https://github.com/cheerfulnut/SOTFEdit/actions/workflows/build.yaml/badge.svg)](https://github.com/cheerfulnut/SOTFEdit/actions/workflows/build.yaml)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/cheerfulnut/SOTFEdit)](https://github.com/cheerfulnut/SOTFEdit/releases)
+[![GitHub all releases](https://img.shields.io/github/downloads/cheerfulnut/SOTFEdit/total)](https://github.com/cheerfulnut/SOTFEdit/releases)
 ![GitHub](https://img.shields.io/github/license/codengine/SOTFEdit)
 
 A savegame editor for "Sons of The Forest".
@@ -70,12 +72,11 @@ nothing more, nothing less.
 
 ## Download
 
-- You can find the newest version at the [Releases page](https://github.com/codengine/SOTFEdit/releases)
+- You can find the newest version at the [Releases page](https://github.com/cheerfulnut/SOTFEdit/releases)
 
 ## Requirements
 
-- Windows 8+
-- [.net 10.0 Desktop Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
+- Windows 10 or 11 (no .NET runtime needed)
 
 ## Usage
 
@@ -252,8 +253,7 @@ I can not change "IsRobbyDead" or "IsVirginiaDead"
 
 The program does not start
 
-- Make sure that .net 10.0 Desktop Runtime is installed. Also make sure to extract all files from the archive if you
-  downloaded the zip archive manually. Lastly, check if any antivirus is blocking the editor
+- Make sure all files were extracted from the archive, and check whether antivirus is blocking the editor
 
 Antivirus (Windows Defender for example, Smartscreen) is complaining
 
@@ -262,7 +262,7 @@ Antivirus (Windows Defender for example, Smartscreen) is complaining
 
 "Could not load file or assembly"
 
-- Make sure to have .net 10.0 Desktop Runtime installed (either x86 or x64)
+- Make sure all files were extracted, and don't copy SOTFEdit.exe out of its folder on its own
 
 My changes are not applied or reverted
 

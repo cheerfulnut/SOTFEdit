@@ -203,7 +203,7 @@
                     <MenuItem Header="{infrastructure:Translate 'menu.help.links.text'}">
                         <MenuItem Header="{infrastructure:Translate 'menu.help.links.githubProject'}"
                                   Command="{Binding OpenUrlCommand}"
-                                  CommandParameter="https://github.com/codengine/SOTFEdit">
+                                  CommandParameter="https://github.com/cheerfulnut/SOTFEdit">
                             <MenuItem.Icon>
                                 <iconPacks:FontAwesome Kind="GithubBrands" />
                             </MenuItem.Icon>
@@ -217,7 +217,7 @@
                         </MenuItem>
                         <MenuItem Header="{infrastructure:Translate 'menu.help.links.downloadLatestVersion'}"
                                   Command="{Binding OpenUrlCommand}"
-                                  CommandParameter="https://github.com/codengine/SOTFEdit/releases">
+                                  CommandParameter="https://github.com/cheerfulnut/SOTFEdit/releases">
                             <MenuItem.Icon>
                                 <iconPacks:FontAwesome Kind="DownloadSolid" />
                             </MenuItem.Icon>
